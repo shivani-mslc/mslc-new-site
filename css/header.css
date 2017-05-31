@@ -1,26 +1,30 @@
 
 .navbar
 {
-    background-color: #222222 !important;
+    background-color: #ffffff !important;
     text-transform:uppercase;
-    font-family:'PT Sans Narrow',Arial,sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight:700;
 }
 
 .nav a
 {
-    color: #fff !important;
+    color:black !important;
     opacity: 0.7;
 }
 
 .nav a:hover
 {
     opacity: 1;
-    background-color: #111111 !important;
 }
 
 .logo 
 {
     margin-top: -12px !important;
     
+}
+
+.navbar-brand:hover
+{
+       box-shadow: 1px 1px 2px 2px grey;
 }
